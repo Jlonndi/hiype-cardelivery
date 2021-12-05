@@ -1,3 +1,5 @@
+local QBCore = exports['qb-core']:GetCoreObject()
+
 RegisterNetEvent("hiype_cardelivery:start_cooldown")
 AddEventHandler("hiype_cardelivery:start_cooldown", function()
     local src = source
